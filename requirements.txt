@@ -155,7 +155,8 @@ rfc3986-validator==0.1.1
 rich==13.7.0
 rsa==4.8
 scikit-image==0.19.2
-scipy==1.8.0
+#scipy==1.8.0
+scipy
 seaborn==0.11.2
 Send2Trash==1.8.2
 six==1.16.0

@@ -1,0 +1,117 @@
+/* Reset default browser styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header.feature-box.right {
+    background-color: #2c3e50; /* Dark blue */
+    color: white;
+    height: 120px;
+    padding: 5px;
+    text-align: right;
+}
+
+header.feature-box.below {
+    height: 800px;
+    background-color: #3498db; /* Blue */
+    margin-top: -30px;
+    background-image: url("../static/images/4.png");
+    background-size: cover; /* Adjusts image size */
+    background-position: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    background-color: #1abc9c; /* Green */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+li:hover {
+    background-color: #16a085; /* Dark green */
+    margin: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Details section styles */
+.details {
+    height: 80px;
+    margin: 40px auto; /* Center horizontally */
+    padding: 20px;
+    font-size: 40px;
+    background-color: #ecf0f1; /* Light grey */
+    text-align: center;
+    color: #34495e; /* Dark grey */
+}
+
+/* Features section styles */
+.features {
+    background: #fff; /* White */
+    color: #34495e; /* Dark grey */
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap */
+    justify-content: center; /* Center items horizontally */
+    padding: 20px;
+}
+
+.features figure {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.features figure img {
+    border-radius: 10px;
+    width: 100%; /* Fill parent container */
+}
+
+/* Main section styles */
+.main {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 40px auto; /* Center horizontally */
+}
+
+.subpart2 figure img {
+    border-radius: 4%;
+    width: 100%; /* Fill parent container */
+}
+
+/* Contact section styles */
+.contactpage {
+    margin: 20px auto; /* Center horizontally */
+    text-align: center;
+}
+
+#textbox,
+#textboxes {
+    font-size: 18pt;
+    height: 42px;
+    width: 80%; /* Adjust width */
+    max-width: 400px; /* Limit maximum width */
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50; /* Dark blue */
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+}

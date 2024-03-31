@@ -12,3 +12,6 @@ pip install -r requirements.txt
 
 4) Run the app in the terminal:
 FLASK_APP=app.py flask run
+
+PS: Also hosted at the following:
+Website link: https://ppe-detection-webapp.onrender.com/

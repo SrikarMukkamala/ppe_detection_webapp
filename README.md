@@ -8,7 +8,7 @@ git clone https://github.com/SrikarMukkamala/ppe_detection_webapp.git
 cd ppe_detection_webapp
 
 3) Install requirements:
-pip install -r requirements
+pip install -r requirements.txt
 
 4) Run the app in the terminal:
 FLASK_APP=app.py flask run

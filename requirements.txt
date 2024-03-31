@@ -1,0 +1,9 @@
+Flask==3.0.2
+flask_wtf==1.2.1
+myapp==0.1dev
+opencv_contrib_python==4.8.1.78
+opencv_python==4.9.0.80
+ultralytics==8.1.37
+Werkzeug==3.0.1
+WTForms==3.1.2
+gunicorn

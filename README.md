@@ -11,7 +11,7 @@ cd ppe_detection_webapp
 pip install -r requirements.txt
 
 4) Run the app in the terminal:
-FLASK_APP=app.py flask run
+gunicorn app:app
 
 PS: Also hosted at the following:
 Website link: https://ppe-detection-webapp.onrender.com/

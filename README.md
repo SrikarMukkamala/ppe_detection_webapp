@@ -14,4 +14,4 @@ pip install -r requirements.txt
 gunicorn app:app
 
 PS: Also hosted at the following:
-Website link: https://ppe-detection-webapp.onrender.com/
+Website link: https://ppedetectsan.streamlit.app/
